@@ -24,8 +24,9 @@ int main()
             cnt++;
         }
         number++;
-
+            goto out ;
     }
+    out:
     printf("\n");
      return 0;
 };

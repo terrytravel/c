@@ -1,3 +1,4 @@
+//求素数
 #include <stdio.h>
 int main(){
     int number;
@@ -8,7 +9,6 @@ int main(){
     for(i=2;i<number;i++){
         if(number%i==0){
             isprime=0;
-            break;
         }
     }
     if (isprime==0){
